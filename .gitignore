@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+_numba_cache/
+
+# data, results and logs written by the scripts next to themselves
+*/data/
+*/*/data/
+results/
+!fracture2d/results/
+fracture2d/results/*
+!fracture2d/results/phase_energy.json
+logs/
+out/
+
+# downloaded scans (see data/README.md)
+data/*
+!data/README.md

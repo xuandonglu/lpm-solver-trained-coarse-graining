@@ -1,0 +1,23 @@
+{
+ "G_m": 4.070060698423521e-06,
+ "G_i": {
+  "5.0": 6.48929176113903e-05,
+  "7.5": 9.733937641702664e-05,
+  "10.0": 0.0001297858352227806,
+  "15.0": 0.00019467875283405328,
+  "0.2": 2.5957167044559523e-06
+ },
+ "G_int": {
+  "5.0": 2.720253133876846e-06,
+  "7.5": 2.6813771394827372e-06,
+  "10.0": 2.7863858142357823e-06,
+  "15.0": 2.872230392840415e-06,
+  "0.2": 1.339461525845292e-06
+ },
+ "Lambda": {
+  "2": 1.9782713953604003,
+  "3": 2.920936327883159,
+  "4": 3.8347052645938846
+ },
+ "note": "constants of the energy-first coarse model: fracture energies [E_m h] of the matrix (G_m), the inclusions (G_i) and the matrix-inclusion interface (G_int) for each contrast, measured with crack-growth tests in a K-field on homogeneous and bimaterial fine lattices of 96 x 96 particles; Lambda: fracture energy of a brittle coarse lattice relative to the fine lattice, per coarsening factor s"
+}

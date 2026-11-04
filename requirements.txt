@@ -1,0 +1,10 @@
+# The results were computed with two environments:
+#   numerical (data generation, fine LPM, patch homogenization, evaluation, fracture, timing):
+#     Python 3.11, numpy 2.4.6, scipy 1.17.1, numba 0.68.0
+#   torch (training, GPU solves, network inference):
+#     Python 3.12, numpy 2.5.3, scipy 1.18.1, torch 2.9.0 (CUDA 13)
+# One environment with all packages also works; numba is needed only by the numerical scripts.
+numpy>=2.4
+scipy>=1.17
+numba>=0.68
+torch>=2.9          # a CUDA build is needed for training and for the 3D fine reference solutions
